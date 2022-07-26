@@ -1,6 +1,8 @@
 import React from "react";
 import Event from "./Event";
 
+import './EventList.scss'
+
 const events = [
   { name: "stuff" },
   { name: "stuff" },
@@ -15,7 +17,7 @@ const events = [
 
 export default function EventList() {
   return (
-    <div>
+    <div className="eventList-container">
       {events.map((event) => (
         <Event event={event} />
       ))}

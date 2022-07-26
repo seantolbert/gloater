@@ -1,7 +1,4 @@
 .App {
-    height: 100vh;
-    display: flex;
-    /* align-items: baseline; */
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
